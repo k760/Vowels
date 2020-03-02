@@ -1,0 +1,29 @@
+import java.util.Scanner
+class Vowels
+{
+public static void main(String args[])
+{
+String s;
+char ch;
+inti=0;
+Scanner sc=new Scanner(System.n);
+System.out.println("Enter a string:");
+s=sc.nextline();
+System.out.println("Vowels in a string are");
+for(int j=0;j<s.length();j++)
+{
+ch=s.charAt(j);
+switch(ch)
+{
+case'a';
+case'e';
+case'i';
+case'o';
+case'u'; i=1;
+System.out.println(ch);
+}
+}
+if(i==0)
+System.out.println("There are no vowels in a string");
+}
+}
